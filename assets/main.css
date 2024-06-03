@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+main{
+    /* height: calc(100vh - 80px); */
+}
+
+.banner{
+    display: flex;
+    margin-top: 200px;
+    height: calc(100vh - 100px);
+}
+
+.sec1{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    flex: 1;
+    height: 500px;
+}
+
+.sec1 h1{
+    font-size: 50px;
+}
+
+.sec1 .hello{
+    margin-top: 10px;
+    line-height: 2px;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+}
+
+.sec1 .name_part2, .sec1 h4 span{
+    color: #47ad47;
+    text-shadow: 0.9px 0px 1px #172721;
+}
+
+.sec1 h4{
+    line-height: 20px;
+    font-size: 30px;
+}
+
+.sec1 .text-presentation{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sec2{
+    font-weight: 500;
+    font-size: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./img/bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.molder{
+    margin-top: 40px;
+    border: solid 1px #2B512B;
+    background-color: #111D1E;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 4px 3px #47ad47;
+    margin-bottom: 40px;
+}
+
+
+
+.borad-visit{
+    background-image: url('./img/me.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.borad-visit:hover{
+    box-shadow: 5px 4px 3px #47ad47;
+}
+
+.profile p{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.profile a{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.contact-me a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ced8ca;
+}
+
+.button{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 80px;
+    border: solid 1px #2B512B;
+    background-color: #111D1E;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: #172721;
+    color: #ced8ca;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social-media img{
+    margin-top: 30px;
+    width: 25px;
+}
+
+.social-media .git{
+    width: 50px;
+}
+
+.sec2{
+    height: 500px;
+}
+
+/*ABOUT ME*/
+
+.text-aboutme{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.text-aboutme div{
+    text-align: justify;
+    padding: 20px 20px 20px 0;
+}
+
+.board-education{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.education p, .title-projects p{
+    text-align: justify;
+    
+}
+
+
+.board-education .education{
+    border: solid 1px #2B512B;
+    background-color: #111D1E;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.tecnologies, .tools{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tecnologies div, .tools div{
+    border: solid 1px #2B512B;
+    background-color: #111D1E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tecnologies{
+    margin-bottom: 40px;
+
+}
+
+.title-skills{
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+.tools{
+    margin-bottom: 40px;
+}
+
+
+
+.dot-text{
+    display: flex;
+    align-items: center;
+}
+
+
+/**/
+
+.my-projects{
+    height: 100vh;
+    margin-top: 130px;
+
+}
+
+.projects section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.projects section .project{
+    height: 300px;
+    border: solid 1px #2B512B;
+    background-color: #111D1E;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.git_projects{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.git_projects  img{
+    width: 30px;
+}
+
+.title-projects, .title-skills, .about-me h3{
+    font-size: 30px;
+    color: #47ad47;
+    border-bottom: solid 1px #172721;
+}
+
+.title-projects{
+    margin-bottom: 15px;
+}
+
+.img-project-1{
+    background-image: url('./img/project1.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+.img-project-2{
+    background-image: url('./img/project2.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+.img-project-3{
+    background-image: url('./img/project3.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+.img-project-4{
+    background-image: url('./img/project4.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+.img-project-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-project-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-project-5:hover h1{
+    display: none;
+}
+
+
+.project-show{
+    opacity: 100%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.project:hover .project-show{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.deploy-btn{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.deploy-btn:hover{
+    text-decoration: underline;
+}
+
+.test{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 30px;
+}
+
+.btn-up{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    border-radius: 50%;
+}
+

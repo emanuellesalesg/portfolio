@@ -1,0 +1,14 @@
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: whitesmoke;
+}
+
+footer div{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 15px;
+}
